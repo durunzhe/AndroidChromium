@@ -16,7 +16,7 @@ by a child template that "extends" this file.
           tools:ignore="MissingVersion">
     <!-- android:versionCode and android:versionName is set through gyp. See build/common.gypi -->
 
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+    <uses-sdk android:targetSdkVersion="23" />
     <uses-feature android:glEsVersion="0x00020000" />
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -31,8 +31,8 @@ by a child template that "extends" this file.
     -->
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-    <uses-permission-sdk-m android:name="android.permission.BLUETOOTH"/>
-    <uses-permission-sdk-m android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH"/>
+    <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN"/>
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
